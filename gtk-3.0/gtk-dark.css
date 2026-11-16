@@ -1,0 +1,2 @@
+/* GORAD OS: load the editable dark stylesheet directly. */
+@import url("dist/gtk-dark.css");

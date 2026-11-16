@@ -1,0 +1,2 @@
+/* GORAD OS: load the editable stylesheet directly. */
+@import url("dist/gtk.css");

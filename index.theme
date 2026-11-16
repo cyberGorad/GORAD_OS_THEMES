@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=GORAD
+Comment=Thème sombre bleu nuit et cyan pour GORAD OS.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=GORAD
+GtkTheme=GORAD
+IconTheme=GORAD
+MetacityTheme=GORAD
