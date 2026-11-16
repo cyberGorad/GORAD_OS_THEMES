@@ -9,16 +9,16 @@
 </info>
 
 <!-- ::: CONSTANTS ::: -->
-<constant name="C_titlebar_focused" value="#0b1117" />
-<constant name="C_titlebar_unfocused" value="#0b1117" />
-<constant name="C_border_focused" value="#00d4ff" />
-<constant name="C_border_unfocused" value="#0b1117" />
-<constant name="C_title_focused" value="#00d4ff" />
-<constant name="C_title_unfocused" value="blend/#00d4ff/#0b1117/0.4" />
-<constant name="C_icons_focused" value="#00d4ff" />
+<constant name="C_titlebar_focused" value="#162B16" />
+<constant name="C_titlebar_unfocused" value="#0B1117" />
+<constant name="C_border_focused" value="#00FF00" />
+<constant name="C_border_unfocused" value="#36404a" />
+<constant name="C_title_focused" value="#E6EDF3" />
+<constant name="C_title_unfocused" value="#8b949e" />
+<constant name="C_icons_focused" value="#00FF00" />
 <constant name="C_icons_focused_prelight" value="gtk:bg[SELECTED])" />
 <constant name="C_icons_focused_pressed" value="shade/gtk:bg[SELECTED]/0.8" />
-<constant name="C_icons_unfocused" value="blend/#00d4ff/#0b1117/0.4" />
+<constant name="C_icons_unfocused" value="#8b949e" />
 <constant name="C_icons_unfocused_prelight" value="gtk:bg[SELECTED])" />
 <constant name="C_icons_unfocused_pressed" value="shade/gtk:bg[SELECTED]/0.8" />
 
@@ -103,11 +103,17 @@
 
 <!-- ::: WINDOW DECORATIONS ::: -->
 <draw_ops name="entire_background_focused">
-	<rectangle color="C_titlebar_focused" x="0" y="0" width="width" height="height" filled="true" />
+	<gradient type="vertical" x="0" y="0" width="width" height="height">
+		<color value="#000000" />
+		<color value="#000800" />
+	</gradient>
 </draw_ops>
 
 <draw_ops name="entire_background_unfocused">
-	<rectangle color="C_titlebar_unfocused" x="0" y="0" width="width" height="height" filled="true" />
+	<gradient type="vertical" x="0" y="0" width="width" height="height">
+		<color value="#000000" />
+		<color value="#000400" />
+	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_focused">
